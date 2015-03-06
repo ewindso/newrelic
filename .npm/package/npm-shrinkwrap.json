@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "newrelic": {
+      "version": "1.11.3",
+      "dependencies": {
+        "bunyan": {
+          "version": "0.14.6"
+        },
+        "continuation-local-storage": {
+          "version": "3.1.1",
+          "dependencies": {
+            "emitter-listener": {
+              "version": "1.0.1",
+              "dependencies": {
+                "shimmer": {
+                  "version": "1.0.0"
+                }
+              }
+            },
+            "async-listener": {
+              "version": "0.4.7",
+              "dependencies": {
+                "shimmer": {
+                  "version": "1.0.0"
+                }
+              }
+            }
+          }
+        },
+        "proxying-agent": {
+          "version": "0.1.5"
+        },
+        "yakaa": {
+          "version": "1.0.0"
+        }
+      }
+    }
+  }
+}
